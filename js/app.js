@@ -1,4 +1,3 @@
-// alert('Hey find me to know where to put the javascript');
 $(function() {
   var newGame = $('a.new-game');
   var alert = $('div.alert-box');
@@ -15,7 +14,7 @@ $(function() {
     newGame.hide();
     random = Math.round(Math.random() * max);
     guesses = 0;
-    console.log(random);
+//    console.log(random);
   }
 
   $('a.submit').on("click", function() {
